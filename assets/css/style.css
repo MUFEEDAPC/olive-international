@@ -1,0 +1,656 @@
+@-webkit-keyframes spinAround {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+@keyframes spinAround {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(359deg);
+        transform: rotate(359deg);
+    }
+}
+
+.thm-btn {
+    cursor: pointer;
+}
+
+.thm-btn1 {
+    color: var(--thm-primary);
+    border: solid 1px var(--thm-primary);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 30px 8px;
+    border-radius: 8px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    letter-spacing: 0.1em;
+    z-index: 1;
+}
+
+.thm-btn1:hover {
+    color: var(--thm-black);
+    border: solid 1px var(--thm-black);
+}
+
+.popular-tours__rate {
+    height: 162px;
+}
+
+.main-menu-wrapper__logo img {
+    /* max-width: 60px; */
+    max-width: 258px;
+    height: 51px;
+}
+
+.btn_container {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular-tours__title {
+    min-height: 25px;
+}
+
+.stricky-header .logo_normal,
+.main-menu.main-menu-two .logo_normal {
+    display: none;
+}
+
+.stricky-header.stricky-fixed .logo_white,
+.main-menu.main-menu-inner .logo_white {
+    display: none;
+}
+
+.stricky-header.stricky-fixed .logo_normal {
+    display: block;
+}
+
+.er_popup {
+    max-width: 600px;
+    margin: 0px auto;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.d5_form {
+    clear: both;
+    padding: 40px;
+    position: relative;
+}
+
+.d5_form h1 {
+    font-size: 20px;
+    line-height: 26px;
+    padding: 10px 0px;
+    color: var(--thm-primary);
+    margin-bottom: 20px;
+    border-bottom: solid 1px var(--thm-clr-extra);
+}
+
+.d5_form h1 a {
+    color: var(--thm-primary);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.d5_form label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 13px;
+    outline: none;
+    margin-bottom: 3px;
+    color: var(--thm-black);
+}
+
+.d5_form label.helper {
+    text-transform: initial;
+    color: var(--thm-gray);
+    font-size: 11px;
+    line-height: 11px;
+    padding: 2px 0px;
+    margin: 0px;
+    height: auto;
+}
+
+.d5_form label.radio {
+    display: inline-block;
+}
+
+.d5_form label span {
+    font-size: 10px;
+    color: #ff0000;
+}
+
+.d5_form input[type="text"],
+.d5_form input[type="number"],
+.d5_form input[type="password"],
+.d5_form input[type="email"],
+.d5_form textarea,
+.d5_form select {
+    display: block;
+    width: 100%;
+    padding: 5px 15px;
+    background-color: #fff;
+    border: 1px solid var(--thm-clr-light);
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.d5_form .df_date {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24px" viewBox="0 0 24 24" width="24px" fill="%23666666">\<g><rect fill="none" height="24" width="24"/></g><g><path d="M19,4h-1V2h-2v2H8V2H6v2H5C3.89,4,3.01,4.9,3.01,6L3,20c0,1.1,0.89,2,2,2h14c1.1,0,2-0.9,2-2V6C21,4.9,20.1,4,19,4z M19,20 H5V10h14V20z M9,14H7v-2h2V14z M13,14h-2v-2h2V14z M17,14h-2v-2h2V14z M9,18H7v-2h2V18z M13,18h-2v-2h2V18z M17,18h-2v-2h2V18z"/></g>\</svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px auto;
+}
+
+.d5_form input::placeholder,
+.d5_form textarea::placeholder {
+    color: var(--thm-clr-light);
+}
+
+.d5_form .select:not(.is-multiple)::after {
+    border: none;
+}
+
+.d5_form select {
+    padding: 5px 15px;
+}
+
+.d5_form input[type="text"]:focus,
+.d5_form input[type="password"]:focus,
+.d5_form textarea:focus,
+.d5_form select:focus {
+    outline: none;
+}
+
+.d5_form input[type="text"],
+.d5_form input[type="number"],
+.d5_form input[type="password"],
+.d5_form select {
+    height: 40px;
+}
+
+.d5_form select,
+.d5_form .control select {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">\<path d="M443.5 162.6l-7.1-7.1c-4.7-4.7-12.3-4.7-17 0L224 351 28.5 155.5c-4.7-4.7-12.3-4.7-17 0l-7.1 7.1c-4.7 4.7-4.7 12.3 0 17l211 211.1c4.7 4.7 12.3 4.7 17 0l211-211.1c4.8-4.7 4.8-12.3.1-17z" fill-rule="nonzero" fill="%23666666" />\</svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px auto;
+}
+
+.d5_form .has-error {
+    border: 1px solid #ff0000 !important;
+    color: #ff0000;
+}
+
+.d5_form .d5_message .error {
+    padding: 15px;
+    border: solid 1px #ff0000;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: center;
+}
+
+.d5_form .d5_message .error a {
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.is-button {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    border: none;
+    outline: none !important;
+    background-color: var(--thm-primary);
+    color: var(--thm-base);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 30px 8px;
+    border-radius: 8px;
+    transition: all 0.3s linear;
+    overflow: hidden;
+    letter-spacing: 0.1em;
+    z-index: 1;
+    cursor: pointer;
+    text-align: center;
+}
+
+.is-button:hover {
+    color: #ffffff;
+}
+
+.is-button.is-loading:after {
+    -webkit-animation: spinAround .5s infinite linear;
+    animation: spinAround .5s infinite linear;
+    border: 2px solid #dbdbdb;
+    border-radius: 290486px;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    content: "";
+    display: block;
+    height: 1em;
+    position: relative;
+    width: 1em;
+    position: absolute;
+    left: calc(50% - (1em / 2));
+    top: calc(50% - (1em / 2));
+    position: absolute !important;
+}
+
+.is-fullwidth {
+    width: 100%;
+}
+
+
+.contact-page__left {
+    background-color: #4a6230;
+    color: #ffffff;
+}
+
+.contact-details {
+    padding: 20px;
+}
+
+.contact-details h3 {
+    border-bottom: solid 1px #ffffff;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 22px;
+    padding: 5px 0px;
+}
+
+.contact-details p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.contact-details p b {
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #9bad39;
+}
+
+.contact-details p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact-details p a.link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact-page__social {
+    padding: 20px;
+}
+.footerlogo{
+    width: 154px;
+    height: 74px;
+}
+.why{
+    /* color: var(--thm-black); */
+    color: var(--thm-gray);
+    font-weight: 400;
+}
+.whyimg{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.whypng{
+    /* height:600px; */
+    object-fit: cover;
+}
+.about-tow__left-img img {
+height:600px;
+object-fit: cover;
+
+}
+@media (max-width: 426px){
+    .main-menu-wrapper__logo img {
+        max-width: 233px;
+        height: 47px;}
+
+    .footer-widget__newsletter-btn{
+        font-size: 10px;
+    }
+    .footer-widget__newsletter-input-box input[type="email"] {
+ width:193%;
+    }
+    .news-two__right   .owl-carousel .owl-item img{
+        height: 415px;
+    }
+    .singapore-tour__text{
+        font-size: 16px;
+    line-height: 29px;
+    }
+    body{
+        font-size: 16px;
+    line-height: 29px;
+    }
+    .about-page__text-2{
+        padding-bottom: 30px;
+    }
+    .contactus {
+        padding-top: 37px !important;
+    }
+    .owl-carousel .owl-item img{
+        height: 157px;
+    object-fit: cover;
+    }
+    .about-tow__left-img img {
+        height:249px;
+    }
+}
+  .landng{
+    width:100%;
+    height:900PX;
+    position: relative;
+     top: -55px !important;
+     object-fit: cover;
+    /* background-position-y: bottom 32px !important; */
+  }
+.contactus{
+    text-align: center;
+    padding-top: 46px;
+    padding-bottom: 70px;
+}
+   
+.contact-page {
+padding-top: 0px;
+}
+.sptest{
+    border-radius: 26% !important;
+}
+.trip{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.academic{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.driving{
+    height:530px;
+    object-fit: cover;
+}
+.travelright{
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.shadow1{
+    text-shadow: white 0px 1px 1px;
+}
+.aboutrow, .spabout{
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.inboundoutbond{
+    color:var(--thm-gray)
+}
+.main-menu__list    li ul{
+    display: none;
+    /* margin: 0; */
+    /* padding: 0; */
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+.main-menu__list li:hover ul {
+    display: block;
+}
+.logosp{
+    filter: brightness(0) invert(1);
+}
+.soudhi{
+
+}
+.business{
+    padding: 64px 0 49px
+}
+.footerlogo{
+ top:50px
+}
+@media (max-width: 1024px) {
+    .footerlogo{
+        /* top:unset; */
+       margin-bottom: 2rem;
+       }
+       .main-menu .mobile-nav__toggler {
+        margin-left: 527px;
+       }
+}
+@media (max-width: 769px) {
+    .acresdtn{
+        justify-content: center;
+    }
+    .main-menu .mobile-nav__toggler {
+        margin-left: unset;
+       }
+       .footerlogo{
+        top:unset;
+       }
+       .footer-widget__about-contact li {
+        justify-content: center;
+    }
+    .footer-widget__company {
+        margin-top: 11px;
+        margin-bottom: -20px;
+    }
+    .footer-widget__title {
+     text-align: center;
+    }
+    .footer-widget__company-list li{
+        text-align: center;
+    }
+       .thirdone{
+        padding-left: 25%;
+        padding-right: 25%;
+       }
+       .footerlogo{
+        top:unset;
+        margin-left: auto;
+        margin-right: auto;
+       }
+}
+
+@media (max-width: 426px) {
+    .logosp2{
+        /* margin-left: unset; */
+    }
+    .thirdone{
+        padding-left: unset;
+        padding-right: unset;
+       }
+    .logosp2{
+        
+        width:100px !important;
+    }
+    .logosp3{
+        width:100px !important;
+    }
+    .acresdtn{
+        display: flex;
+     justify-content: center;
+     align-items: center;
+   }
+    /* .footerlogo{
+        top:unset;
+        margin-left: auto;
+        margin-right: auto;
+       } */
+
+
+       .singapore-tour__content {
+        padding-right: 16px;
+       }
+       .singapore-tour-bg {
+        height: 197px !important;
+        background-position-x: unset !important;
+    }
+    .business {
+        padding: 0px 0 0px;
+    }
+    .popular-tours-two{
+        padding: 0px 0 0px;
+    }
+    .destinations-two{
+        padding: 87px 0 0px;
+    }
+    .space{
+        display: none;
+    }
+    .popular-tours__rate {
+        font-size: 14px;
+    }
+}
+@media (max-width: 378px) {
+    .singapore-tour-bg {
+
+        background-position-x: -50px !important;
+    }
+}
+@media (max-width: 320px) {
+    .logosp2{
+        
+        width:97px !important;
+    }
+    .logosp3{
+        width:97px !important;
+    }
+    .singapore-tour-bg {
+
+        background-position-x: -92px !important;
+    }
+    .about-page__img img {
+        height: 219px;
+    }
+}
+
+.airlineh{
+    color:white;
+}
+@media (max-width: 1440px) {
+    .singapore-tour-bg {
+        /* height: 522px; */
+        /* background-position-x: -440px; */
+    }
+}
+
+@media (min-width: 1440px) {
+    .singapore-tour-bg {
+        background-position-x: -440px !important;
+    }
+}
+@media (min-width: 1024px) {
+    .singapore-tour-bg {
+        height: 623px;
+        background-position-x: -523px;
+    }
+}
+.businesstravl{
+    height: 463px;
+}
+@media (min-width:2560px) {
+    .singapore-tour-bg {
+     
+        background-position-x: unset !important;
+        background-position-y: -129px;
+    }
+}
+/* .one{
+    display:flex;
+    flex-wrap: wrap;
+    border-width: 0px 1px 1px;
+    border-color: rgb(235, 230, 222);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 1px solid red;
+} */
+.partnerimg{
+    background-position-y: -129px; 
+}
+.cardh3{
+    font-size: 20px;
+}
+.cardp{
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 5px;
+    /* margin-bottom: 2px; */
+}
+
+@media (min-width: 1024px){
+.col-xl-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+.about-page__img .aboutsection {
+   
+    height: 696px;
+    object-fit: cover;
+}
+.popular-tours__rate {
+    height: 264px;
+}
+}
+@media (min-width: 1028px){
+.col-xl-4 {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+}
+}
+.acresdtn{
+    display:flex;
+
+    
+}
+.logosp2{
+    margin-right: 4px;
+    width:130px;
+}
+.logosp3{
+    width:130px;
+}
+
+/* @media (min-width: 1440px){
+.col-md-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}} */
+
+@media (min-width: 2560px){
+.popular-tours__rate {
+    height: 143px;
+}}
