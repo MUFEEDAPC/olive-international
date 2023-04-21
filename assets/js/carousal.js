@@ -12,6 +12,8 @@ $(document).ready(function() {
         });
       }, 4000);
     }
+   
+    
   
     function stopCarousel() {
       clearInterval(interval);

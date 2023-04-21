@@ -63,8 +63,12 @@
     font-size: 18px;
 }    
 .singapore-tour__content {
-    padding-left: 100px;
-}    
+    padding-left: 75px;
+    padding-top: 83px;
+    padding-bottom: 73px;
+    padding-right: 64px;
+}
+ 
 .singapore-tour__text {
     /* font-size: 35px;
     line-height: 48px; */
@@ -172,7 +176,7 @@
 }    
 .about-page__left {
     margin-right: 0;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto 0;
 }    
 .about-page__right {
@@ -317,7 +321,7 @@
     width: 100%;
 }    
 .singapore-tour__content {
-    padding-left: 30px;
+    /* padding-left: 30px; */
 }    
 .singapore-tour__trusted {
     right: 50px;
@@ -396,7 +400,7 @@
 }    
 .about-page__left {
     margin-right: 0;
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: 0 auto 0;
 }    
 .about-page__right {
@@ -1119,14 +1123,27 @@
 }
 
 @media (max-width: 1024px) { 
-   
+   .travelright {
+    padding-right: 29px !important;
+    padding-left: 52px !important;
+    padding-top: 3px !important;
+   }
 }
 
 
 @media (max-width: 769px) { 
+    .travelright{
+        padding-bottom: 22px;
+    }
+    .boundsection{
+        flex-direction: column-reverse !important;
+    }
+    .drivingli{
+        flex-direction: column-reverse !important;
+    }
     .journybegins{
         /* display: flex; */
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     .destinations-two__top-img img{
         height: 249px;
@@ -1189,11 +1206,93 @@ html.tawk-mobile{
 }
 
 @media (max-width: 426px) { 
+
+    .banner1 {
+        width: 100%;
+        /* height: 75% !important; */
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .landng {
+        width: 100%;
+        /* height: 900PX; */
+        height: 410px !important;
+        position: relative;
+        /* top: -55px !important; */
+        object-fit: cover;
+    }.banner-two {
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left center;
+        z-index: 1;
+        overflow: hidden;
+        background-color: var(--thm-black);
+        padding-top: 122px;
+        padding-bottom: 105px;
+    }
+    .banner-two__title {
+        font-size: 25px;
+    line-height: 28px;
+        /* display: none; */
+    }
+    .landng {
+        width: 166% !important;
+        /* height: 900PX; */
+        height: 474px;}
+        .banner-two__content {
+            position: relative;
+            display: block;
+            top: 7px;
+        }    
+
+
+}
+
+@media (max-width: 426px) { 
+    .ert{
+        font-size :14px;
+    }
+    .news-one__title {
+      
+        text-align: center;
+    }
+    .popular-tours__img img {
+    height:266px;
+ 
+        }
+    .inboundimage{
+        border-radius: 0px 63px 0px 0px !important;
+    }
+    .businesstravl{
+        border-radius: 8px 8px 8px 72px !important;
+    }
+    .phoneimage{
+        padding-bottom: 42px;
+    }
+    .singapore-tour__content {
+        padding-top: 47px;
+        padding-bottom: 24px;
+    }
+    .drivingright{
+        padding-right: 23px !important;
+        padding-left: 23px !important;
+    }
+    .travelright{
+        padding-right: 43px !important;
+    padding-left: 43px !important;
+    padding-top: 0px !important;
+    padding-bottom: unset;
+    }
     .about-page {
         padding: 71px 0 32px;
     }
     .about-page__img img {
-        height: 240px;
+        height: 263px;
         object-fit: cover;
     }
     .tour-types__content {
@@ -1274,6 +1373,6 @@ max-width: 2046px !important;
 
 }
 .main-menu-wrapper__logo{
-    margin-right: 1365px;
+    margin-right: 747px;
 }
 }

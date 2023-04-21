@@ -304,21 +304,18 @@
         '<span class="icon-right-arrow"></span>',
       ],
       responsive: {
+       
         0: {
-          items: 2.2,
+          items: 1,
+          margin: 10,
+        }, 
+       768: {
+          items: 3,
         },
-        600: {
-          items: 2,
-        },
-        800: {
-          items: 2,
-        },
-        1024: {
-          items: 2,
-        },
-        1200: {
-          items: 2,
-        },
+        
+        
+        
+        
       },
     });
   }

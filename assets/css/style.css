@@ -316,8 +316,8 @@
     padding: 20px;
 }
 .footerlogo{
-    width: 154px;
-    height: 74px;
+    width: 125px;
+    height: 69px;
 }
 .why{
     /* color: var(--thm-black); */
@@ -349,7 +349,7 @@ object-fit: cover;
  width:193%;
     }
     .news-two__right   .owl-carousel .owl-item img{
-        height: 415px;
+        height: 316px;
     }
     .singapore-tour__text{
         font-size: 16px;
@@ -373,9 +373,13 @@ object-fit: cover;
         height:249px;
     }
 }
+.maintext{
+    margin-top: 12px;
+}
   .landng{
     width:100%;
-    height:900PX;
+    /* height:900PX; */
+    height: 714PX;
     position: relative;
      top: -55px !important;
      object-fit: cover;
@@ -408,6 +412,9 @@ padding-top: 0px;
 .travelright{
     margin-top: auto;
     margin-bottom: auto; 
+    padding-right: 66px;
+    padding-left: 99px;
+    padding-top: 41px;
 }
 .shadow1{
     text-shadow: white 0px 1px 1px;
@@ -437,7 +444,20 @@ padding-top: 0px;
 
 }
 .business{
-    padding: 64px 0 49px
+    padding: 0px 0 0px
+}
+.banner1{
+    width: 100%;
+    height: 120% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.inbou{
+    padding-top: 25px;
+    padding-bottom:25px ;
 }
 .footerlogo{
  top:50px
@@ -448,7 +468,10 @@ padding-top: 0px;
        margin-bottom: 2rem;
        }
        .main-menu .mobile-nav__toggler {
-        margin-left: 527px;
+        margin-left:516px;
+       }
+       .icons{
+        display: none !important;
        }
 }
 @media (max-width: 769px) {
@@ -513,7 +536,7 @@ padding-top: 0px;
 
 
        .singapore-tour__content {
-        padding-right: 16px;
+        padding-right: 23px;
        }
        .singapore-tour-bg {
         height: 197px !important;
@@ -538,7 +561,7 @@ padding-top: 0px;
 @media (max-width: 378px) {
     .singapore-tour-bg {
 
-        background-position-x: -50px !important;
+        /* background-position-x: -50px !important; */
     }
 }
 @media (max-width: 320px) {
@@ -551,7 +574,7 @@ padding-top: 0px;
     }
     .singapore-tour-bg {
 
-        background-position-x: -92px !important;
+        /* background-position-x: -92px !important; */
     }
     .about-page__img img {
         height: 219px;
@@ -570,13 +593,13 @@ padding-top: 0px;
 
 @media (min-width: 1440px) {
     .singapore-tour-bg {
-        background-position-x: -440px !important;
+        /* background-position-x: -440px !important; */
     }
 }
 @media (min-width: 1024px) {
     .singapore-tour-bg {
         height: 623px;
-        background-position-x: -523px;
+        /* background-position-x: -523px; */
     }
 }
 .businesstravl{
@@ -654,3 +677,15 @@ padding-top: 0px;
 .popular-tours__rate {
     height: 143px;
 }}
+.name{
+    position: absolute;
+}
+.icons{
+    display: flex;
+    padding-left: 178px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.news-two__carousel{
+    overflow: hidden;
+}
